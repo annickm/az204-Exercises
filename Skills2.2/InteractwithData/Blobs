@@ -1,0 +1,24 @@
+  Determining projects to restore...
+  Writing C:\Users\annick.morris\AppData\Local\Temp\tmp7AB2.tmp
+info : Adding PackageReference for package 'Azure.Storage' into project 'D:\Training\az204\Skills2.2\InteractwithData\InteractwithData.csproj'.
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/azure.storage/index.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/azure.storage/index.json 430ms
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/azure.storage/index.json
+error: There are no versions available for the package 'Azure.Storage'.
+
+
+Usage: NuGet.CommandLine.XPlat.dll package add [options]
+
+Options:
+  -h|--help               Show help information
+  --force-english-output  Forces the application to run using an invariant, English-based culture.
+  --package               Id of the package to be added.
+  --version               Version of the package to be added.
+  -d|--dg-file            Path to the dependency graph file to be used to restore preview and compatibility check.
+  -p|--project            Path to the project file.
+  -f|--framework          Frameworks for which the package reference should be added.
+  -n|--no-restore         Do not perform restore preview and compatibility check. The added package reference will be unconditional.
+  -s|--source             Specifies NuGet package sources to use during the restore.
+  --package-directory     Directory to restore packages in.
+  --interactive           Allow the command to block and require manual action for operations like authentication.
+  --prerelease            Allows prerelease packages to be installed.
