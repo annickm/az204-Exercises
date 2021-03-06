@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualNetworks_az204VNET_name": {
+            "value": "az204VNET"
+        },
+        "networkInterfaces_az204NIC_name": {
+            "value": "az204NIC"
+        },
+        "virtualMachines_az204VMTesting_name": {
+            "value": "az204VMTesting"
+        },
+        "publicIPAddresses_az204publicIP_name": {
+            "value": "az204publicIP"
+        },
+        "networkSecurityGroups_az204VNET_NSG_name": {
+            "value": "az204VNET-NSG"
+        },
+        "subnets_az204Subnet_name":{
+            "value": "az204Subnet"
+        },
+        "virtualMachines_adminUser": {
+            "value": "azadminuser"
+        },
+        "virtualMachines_adminpassword": {
+            "value": "Pa$$w0rd!2019!"
+        }
+    }
+}

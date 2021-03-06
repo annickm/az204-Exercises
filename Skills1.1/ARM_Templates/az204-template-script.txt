@@ -1,0 +1,8 @@
+#!/bin/bash
+#Azure CLI template deployment
+az group create --name az204-ResourceGroup --location "uksouth"
+az group deployment create \
+--name AZ204DemoDeployment \
+--resource-group az204-ResourceGroup \
+--template-file az204-template.json \
+--parameters @az204-template.parameters.json
