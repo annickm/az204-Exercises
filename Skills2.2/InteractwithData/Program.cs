@@ -22,7 +22,7 @@ namespace InteractwithData
             AppSettings appSettings = AppSettings.LoadAppSettings();
 
             //Get a cloud client for the source Storage Account
-            BlobServiceClient sourceClient = Common.CreateBlobClientStorageFromSAS(appSettings.SourceASAConnectionString);
+            BlobServiceClient sourceClient = Common.CreateBlobClientStorageFromSAS(appSettings.SourceSASConnectionString);
 
             //Get a reference for each container
             var sourceContainerReference = sourceClient.GetBlobContainerClient(appSettings.SourceContainerName);
@@ -60,7 +60,7 @@ namespace InteractwithData
             AppSettings appSettings = AppSettings.LoadAppSettings();
 
             //Get a cloud client for the source Storage Account
-            BlobServiceClient sourceClient = Common.CreateBlobClientStorageFromSAS(appSettings.SourceASAConnectionString);
+            BlobServiceClient sourceClient = Common.CreateBlobClientStorageFromSAS(appSettings.SourceSASConnectionString);
 
             //Get a cloud client for the destination Storage Account
             BlobServiceClient destinationClient = Common.CreateBlobClientStorageFromSAS(appSettings.DestinationASAConnectionString);
