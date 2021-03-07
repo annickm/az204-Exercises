@@ -5,7 +5,7 @@ namespace InteractwithData
 {
     public class AppSettings
     {
-        public string SourceASAConnectionString { get; set; }
+        public string SourceSASConnectionString { get; set; }
         public string SourceAccountName { get; set; }
         public string SourceContainerName { get; set; }
         public string DestinationASAConnectionString { get; set; }
