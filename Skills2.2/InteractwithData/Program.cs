@@ -63,7 +63,7 @@ namespace InteractwithData
             BlobServiceClient sourceClient = Common.CreateBlobClientStorageFromSAS(appSettings.SourceSASConnectionString);
 
             //Get a cloud client for the destination Storage Account
-            BlobServiceClient destinationClient = Common.CreateBlobClientStorageFromSAS(appSettings.DestinationASAConnectionString);
+            BlobServiceClient destinationClient = Common.CreateBlobClientStorageFromSAS(appSettings.DestinationSASConnectionString);
 
             //Get a reference for each container
             var sourceContainerReference = sourceClient.GetBlobContainerClient(appSettings.SourceContainerName);
