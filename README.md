@@ -1,4 +1,4 @@
-# az204Exercises
+# az204 Exercises
 
 This repository contains the exercises as I work my way through the following book: *Exam Ref AZ-204 Developing Solutions for Microsoft Azure*
 
