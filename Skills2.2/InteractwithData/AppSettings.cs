@@ -8,7 +8,7 @@ namespace InteractwithData
         public string SourceSASConnectionString { get; set; }
         public string SourceAccountName { get; set; }
         public string SourceContainerName { get; set; }
-        public string DestinationASAConnectionString { get; set; }
+        public string DestinationSASConnectionString { get; set; }
         public string DestinationAccountName { get; set; }
         public string DestinationContainerName { get; set; }
 
